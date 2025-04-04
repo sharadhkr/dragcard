@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+::selection{
+    color: rgb(28, 0, 81);
+}
+img{
+    pointer-events: none;
+}
+
+body {
+    cursor: url("public/cursor.png") 2 2,grab;
+
+    html, body {
+        width: 100%;
+        height:100%;
+      }
+
+}
+
+#Card:hover img{
+    animation: animationaa 0.3s ease-in ;
+    transform: scale(125%);
+}
+@keyframes animationaa {
+    0%{
+        transform: scale(100%);
+    }
+    50%{
+        transform: scale(125%);
+
+    }
+    100%{
+        transform: scale(125%);
+    }
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
