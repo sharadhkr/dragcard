@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import Card from './card'
+import Card from './Card.jsx'
 function foreground() {
 
   const ref =useRef(null)
