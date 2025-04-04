@@ -8,22 +8,22 @@ function foreground() {
     {
       Hero:"Spidy",
       Image:"spiderman",
-      heroimage:"./public/spidy.jpg"
+      heroimage:"https://drive.google.com/file/d/1heEKNzeCRmlHL5fCiCxtHcRIA9sd5kWH/view?usp=sharing"
     },
     {
       Hero:"SpyDo",
       Image:"spiderman",
-      heroimage:"public/pyderman.jpeg"
+      heroimage:"https://drive.google.com/file/d/1gW0MaeeT4VfCbWjt-DhvK08wfjWSocsQ/view?usp=sharing"
     },
     {
       Hero:"Tonyy",
       Image:"spiderman",
-      heroimage:"public/ironman.jpeg"
+      heroimage:"https://drive.google.com/file/d/1EzypBlO56tLJqv1XF3xbugz2ktXV_qnN/view?usp=sharing"
     },
     {
       Hero:"Piter",
       Image:"spiderman",
-      heroimage:"public/spydyy.jpeg"
+      heroimage:"https://drive.google.com/file/d/12HTQW0jceFSMaVRuX19lxkUKT02xh2pW/view?usp=sharing"
     }
   ]
   return (
