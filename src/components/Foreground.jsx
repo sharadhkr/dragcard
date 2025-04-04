@@ -28,7 +28,7 @@ function foreground() {
   ]
   return (
     <>
-      <div ref={ref} className='fixed flex gap-10 top-0 left-0 w-full h-full bg-0 z-[5] m-5'>
+      <div ref={ref} className='fixed flex top-0 left-0 w-screen h-screen bg-0 z-[5] m-5'>
       {carddata.map((item ,index)=>(
         <Card carddata={item} refrence={ref} />
       ))}
