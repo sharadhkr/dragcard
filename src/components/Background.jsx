@@ -3,7 +3,7 @@ import React from 'react'
 function Background() {
   return (
     <>
-    <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold text-zinc-900 drop-shadow-lg text-[10vw] leading-none tracking-normal'>
+    <h1 className=' absolute top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] font-bold text-zinc-800 drop-shadow-lg text-[10vw] leading-none tracking-normal'>
         Dr.Banner
     </h1>
     </>

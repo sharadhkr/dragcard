@@ -3,7 +3,7 @@ import Background from './components/Background.jsx'
 import Foreground from './components/Foreground.jsx'
 function App() {
     return (
-        <div className=' realative w-full h-screen bg-zinc-800'>
+        <div className=' realative w-full h-screen bg-zinc-950'>
             <Foreground/>
             <Background/>
         </div>
