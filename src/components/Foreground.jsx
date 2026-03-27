@@ -6,22 +6,23 @@ function foreground() {
 
   const carddata =[
     {
-      Hero:"Spidy",
+      Hero:"modi",
+
       Image:"spiderman",
       heroimage:"https://i.pinimg.com/474x/78/dd/1c/78dd1c82c102f32f5c5245e1860b6a88.jpg"
     },
     {
-      Hero:"SpyDo",
+      Hero:"rdjo",
       Image:"spiderman",
       heroimage:"https://i.pinimg.com/474x/cf/95/15/cf9515c77140b87880058609cc49b9ae.jpg"
     },
     {
-      Hero:"Tonyy",
+      Hero:"Todsgfyy",
       Image:"spiderman",
       heroimage:"https://i.pinimg.com/474x/d5/5f/92/d55f9254d763bd7319a00e4eed808f10.jpg"
     },
     {
-      Hero:"Piter",
+      Hero:"PDstgrdthfg",
       Image:"spiderman",
       heroimage:"https://i.pinimg.com/474x/29/d1/eb/29d1eb4dacbbdc2055eb8352d3f575ab.jpg"
     },
