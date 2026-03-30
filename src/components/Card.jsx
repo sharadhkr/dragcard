@@ -3,16 +3,7 @@ import { motion } from "motion/react"
 function card({ carddata, refrence }) {
     return (
         <>
-            <motion.div
-                drag dragConstraints={refrence}
-                whileTap={{ scale: 0.9, rotate: 10 }}
-                dragElastic={0.55}
-                dragTransition={{ bounceStiffness: 10, bounceDamping: 10 }}
-                id='Card'
-                className='absolute flex items-center justify-center border-2 border-gray-500 overflow-hidden w-[190px] h-[280px] drop-shadow-xl rounded-[30px] drop-shadow-[0px_0px_5px_rgba(0,0,1,.2)] bg-black'>
-                <img className='w-full h-full scale-120 z-100 object-cover' src={carddata.heroimage} alt="" />
-            </motion.div>
-
+           
         </>
     )
 }
